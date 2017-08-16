@@ -1,0 +1,35 @@
+1.   –
+
+2. usando o comando git push –follow-tags.
+
+3.  master
+
+4. o comando cria um novo branch com o nome informado
+
+5. com o comando git branch <branch> <commit>
+
+6. cria um branch de nome erro1234
+
+7. git checkout experimento2
+
+8. serão listados b1 e b2, sendo que o b1 estará em destaque por ser o git corrente.
+
+9.  é criado um novo branch de nome novobranch, além de fazer um switch para novobranch,
+	como uma união de git branch <nome> e git checkout <nome>
+
+10.	git clone https://github.com/nickname/repositorio.git
+	git add README.md
+	git commit –m “primeiro commit”
+	git checkout –b branch1
+	git add novoArquivo
+	git commit –m “adicionado novo arquivo”
+	git checkout –b branch2
+	git add texto.txt
+	git commit –m “adicionado texto.txt”
+	git checkout master
+	git merge branch1
+	git checkout –d branch1
+	git merge branch2
+	git checkout –d branch2
+	git commit –m “update no trabalho, todos os branches unidos”
+	git push –u origin master

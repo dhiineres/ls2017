@@ -1,0 +1,95 @@
+Lista 1:
+
+1-   git –version
+
+2-
+	a. Lista todas as configurações já efetuadas do git em uma máquina.
+	b. o arquivo /a.txt é movido para /b.txt.
+	c. descarta todas as mudanças realizadas no tree em questão desde o
+	   commit definido.
+	d. Lista os últimos sete commits com detalhes de data, nome e autor
+	   do commit.
+	e. Lista os comandos mais usuais do git.
+	f. Direciona a uma page em html que contém o manual do git para o
+	   comando reset.
+	g. faz o update do index não apenas onde se encontra a working tree,
+	   mas em todo local onde esse index tem alguma entrada.
+	h. faz o update do index  com todos os arquivos que estão sendo
+	   listados na working tree.
+
+3. git add <arquivo> e git commit –m “<mudança>”
+
+4. git show
+
+5. git status –u
+
+6. git commit –m “<mudança>”
+
+7. git reset HEAD <arquivo>...
+
+8. adicionar a extensão .gitignore e usar o comando git rm –cached <arquivo>
+
+9. ele continua salvo no git hub, sendo necessário apenas usar o git clone
+   para repor os arquivos.
+
+10. com o comando git clone https://github.com/nickname/repositório.git.
+
+11. git log –graph –oneline  --all –decorate
+
+12. no diretório .git/config
+
+13.  dentro do diretório onde será criado o comando git init
+
+14. cria um diretório .git
+
+15. git add –u.
+
+16.  é um método de criptografia usado para identificar com uma string de 40
+     caracteres um objeto no git, fazendo com que haja a impossibilidade de que
+     hajam dois objetos diferentes utilizando o mesmo nome
+
+17. git log -1 –abbrev-commit
+
+18. Não, o comando git add –u adiciona apenas os arquivos que foram modificados,
+    como os arquivos de texto acabaram de ser criados nada sera feito com relação a eles
+
+19. o HEAD voltará para o estado em que estava antes do último commit, com os arquivos em
+    status untracked, quando o comando git reset --hard for efetuado todo o trabalho
+    retornará ao status de quando foi efetuado o último commit, deletando os arquivos
+    untracked.
+
+20. git clean -d
+
+21. .gitignore
+
+22. adicionando a classe .class no diretório .gitignore
+
+23. –
+
+24. Mostra a url em que o git armazenou o remote.
+
+25. Mostra a lista de colaboradores do projeto, por ordem de quantidade de commits.
+
+26. Para criar uma tag com anotação usa-se o comando git tag –a <versão> -m “<definição>”.
+
+27. git tag –l ‘v2.0*’.
+
+28. será adicionada uma tag anotada no repositório, com a versão 3.4-gold e a mensagem de
+    anotação “minha versão ouro”.
+
+29. o comando mostra a tag, a pessoa que colocou a anotação, assim como o commit em que
+     aquela tag foi criada e sua data.
+
+30. o comando carrega para o servidor local a tag que foi definida, também podendo ser 
+    utilizado –tags para que todas sejam carregadas.
+
+31. são adicionadas mudanças menores mas significativas, normalmente para corrigir
+    pequenos erros, utilizando a mesma mensagem e parâmetros do commit anterior
+
+32. o arquivo volta a ser untracked.
+
+33. ele faz o update da arvore de trabalho do arquivo no qual ocorreram as mudanças.
+
+34. enquanto o comando git reset realiza o update apenas do arquivo x.txt o comando
+    git checkout vai realizar o update da working tree no branch onde está o diretório
+    definido.
