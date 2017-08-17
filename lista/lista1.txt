@@ -17,28 +17,28 @@ Lista 1:
 	h. faz o update do index  com todos os arquivos que estão sendo
 	   listados na working tree.
 
-3. git add <arquivo>,  git commit –m “<mudança>” e git push -u <branch de destino>.
+3. git add <arquivo>, git commit –m “<mudança>” e git push -u <branch de destino>.
 
-4. git show
+4. git diff
 
 5. git status –u
 
-6. git commit –m “<mudança>”
+6. git commit –m “<mensagem>”
 
-7. git reset HEAD <arquivo>...
+7. git checkout HEAD -- teste.txt
 
 8. adicionar a extensão .gitignore e usar o comando git rm –cached <arquivo>
 
 9. ele continua salvo no git hub, sendo necessário apenas usar o git clone
    para repor os arquivos.
 
-10. com o comando git clone https://github.com/nickname/repositório.git.
+10. com o comando git clone https://<user>@github.com/<owner>/<repositório>.git.
 
-11. git log –graph –oneline  --all –decorate
+11. git log –-pretty=oneline
 
 12. no diretório .git/config
 
-13.  dentro do diretório onde será criado o comando git init
+13. dentro do diretório onde será criado o comando git init
 
 14. cria um diretório .git
 
@@ -58,7 +58,7 @@ Lista 1:
     retornará ao status de quando foi efetuado o último commit, deletando os arquivos
     untracked.
 
-20. git clean -d
+20. git clean -f
 
 21. .gitignore
 
