@@ -13,6 +13,6 @@
 | 11  |  1 | [Arquitetura](https://github.com/dhiineres/ls2017/wiki/arquitetura)   |   |
 | 12  | 1  | [visualvm](https://github.com/dhiineres/ls2017/wiki/visualvm)  |   |
 | 13  |  1 | [SonarCloud](https://github.com/dhiineres/ls2017/wiki/sonarcloud)   |   |
-| 14  |  1 | [Softvis3d](https://github.com/dhiineres/ls2017/wiki/softvis3d)  |   |
+| 14  |  0 | [Softvis3d](https://github.com/dhiineres/ls2017/wiki/softvis3d)  |   |
 | 15  |  1 | [Avaliação individual](https://github.com/dhiineres/ls2017/blob/master/README.md)  |   |
 | 16  |   |   |   |
